@@ -1,0 +1,108 @@
+nav a{
+    font-size: 5.2vw;
+    color: white;
+    text-decoration: none;
+}
+nav span{
+    color: #00A86B;
+    font-weight: 800;
+}
+nav button{
+    margin-top: -1.5vw;
+    height: 3vh;
+    width: 10vw;
+    font-size: 3vw;
+}
+.hero-main{
+    margin-top: 5vw;
+    height: 18%;
+}
+.hero-main h2{
+    font-size: 3vw;
+}
+.hero-main h1{
+    font-size: 12vw;
+}
+.hide{
+    background-color: #0b1215;
+    width: 35vw;
+    height: 10.2vw;
+    bottom: 1.8%;
+    right: 4%;
+    border-radius: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide p{
+    color: whitesmoke;
+    font-size: 3.5vw;
+    font-family: Montserrat;
+    display: inline-block;
+}
+.page-2 p{
+    height: 52%;
+    width: 90%;
+    font-size: 6vw;
+    line-height: 6.8vw;
+}
+
+
+
+
+
+
+
+.page-3{
+    height: 100vh;
+}
+.page-3-head{
+    margin-top: -5vw;
+    height: 15vh;
+}
+.page-3-head h2{
+    font-size: 8vw;
+}
+.page-3-blog{
+    margin-top: 2vw;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.blog{
+    height: 50vw;
+    width: 75vw;
+    border-radius: 2vw;
+    background-color: #151e22;
+    box-shadow: 0px 0px  #151e22;
+    /* border: 1.4px dashed #fff;   */
+    transition: all ease 0.5s;
+    padding: 2vw 1vw 0vw 3vw;
+}
+.blog h3{
+    font-weight: 300;
+    font-size: 3vw;
+    letter-spacing: .1vw;
+    color: rgba(255, 255, 255, 0.428);
+}
+.blog h2{
+    padding-top: 2vw;
+    line-height: 5.5vw;
+}
+.blog p{
+    font-size: 2.9vw;
+    position: relative;
+    margin-top: 3vw;
+}
+.blog:hover{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 2vw;
+    background-color: transparent;
+    box-shadow: 20px 12px  #151e22;
+    border: 1.4px  white;  
+    border-style: dashed;
+}
