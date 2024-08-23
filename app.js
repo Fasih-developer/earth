@@ -1,3 +1,8 @@
+window.addEventListener('load' , function(){
+  gsap.From('.main',{
+    opacity :0,
+  })
+})
 function locomotive (){
     gsap.registerPlugin(ScrollTrigger);
     
